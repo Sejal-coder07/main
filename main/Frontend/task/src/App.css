@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  
+padding: 50px;
+  background-color: #ffffff;
+  color: #000000;
+  align-items: center;
+}
+/* Style for the h1 tag */
+.dashboard-title {
+  font-size: 3rem; /* Adjust font size */
+  font-weight: 700; /* Bold font weight */
+  text-align: center; /* Center the text horizontally */
+  color: #2c3e50; /* Dark text color, adjust as needed */
+  margin-top: 20vh; /* Center the text vertically with margin */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Choose a clean font */
+  animation: fadeInUp 2s ease-out;
+}
+
+/* Animation for the h1 tag */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+
+
+button,
+select {
+ background: none;
+  color: #333333;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+ /* Positions search bar on the left and dropdown on the right */
+ 
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f8f9fa; /* Optional background for the control section */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Bar Styling */
+.controls input[type="text"] {
+  flex: 1; /* Ensures it takes available space */
+  padding: 8px 12px;
+  align-items: left;
+  width:20px;
+  margin-left: 800px; /* Adds space between input and select */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+   color: #000000;
+  font-size: 1rem;
+  background-color: #ffffff;
+  box-shadow: inset 0 1px 3px rgba(255, 251, 251, 0.1);
+}
+
+/* Month Dropdown Styling */
+.controls select {
+  padding: 8px 12px;
+  align-items: right;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .controls {
+    flex-direction: column; /* Stack elements on small screens */
+    align-items: stretch;
+  }
+
+  .controls input[type="text"],
+  .controls select {
+    margin-right: 0;
+    margin-bottom: 10px; /* Add space between stacked elements */
+  }
+}
+
+
+
+
+
+

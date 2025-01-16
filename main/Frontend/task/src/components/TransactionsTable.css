@@ -1,0 +1,69 @@
+/* General Table Styling */
+
+  /* Table Header Styling */
+  .table-container {
+    margin: 20px 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 50%;
+    border-collapse: collapse;
+    background-color: #ffebeb;
+    border-radius: 10px ;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    padding-left: 50PX;
+  
+  }
+  
+  /* Add vertical and horizontal lines */
+  th,
+  td {
+    border: 1px solid #000000; /* Black border for rows and columns */
+    padding: 10px;
+    text-align: left;
+  }
+  
+  
+  /* Table Body Styling */
+
+  
+  /* Cell Styling */
+  td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000000; /* Border for cells */
+  }
+  
+  /* Image Styling */
+  td img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Pagination Styling */
+  .pagination {
+    padding-top: 5px;
+    margin: 50 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    table {
+      font-size: 0.9rem;
+    }
+  
+    td img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+.BarChart {
+    border: 2px solid; /* Box border */
+    border-radius: 18px; /* Rounded corners */
+    padding: 16px; /* Inner spacing */
+    margin: 100px auto; /* Center and space around the box */
+    max-width: 750px; /* Limit the width */
+    background-color: #ffebeb; /* Light background */
+ 
+    text-align: center; /* Center text content */
+  }
+  
+  .BarChart h2 {
+    margin-bottom: 16px; /* Space below the heading */
+    font-size: 20px; /* Larger font size for heading */
+    color: #333; /* Darker text color */
+    font-weight: bold; /* Bold text */
+  }
+  
+  .BarChart .recharts-wrapper {
+    display: flex; /* Flexbox for alignment */
+    justify-content: center; /* Center the chart within the container */
+  }
+  
